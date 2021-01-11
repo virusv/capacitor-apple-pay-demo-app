@@ -1,0 +1,12 @@
+{
+  "appId": "pro.sharks.capacitor.applepaydemo",
+  "appName": "capacitor-apple-pay-demo-app",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+:root {
+  --bottom-edge: 20px;
+  --top-edge: 30px;
+  --padding: 20px;
+  --btn-radius: 7px;
+  --color-primary: #1e7dca;
+  --color-gray: #ddd;
+  --text-color: #121212;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: var(--text-color);
+}
+
+.footer {
+  padding: var(--padding);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: var(--bottom-edge);
+}
+
+.btn {
+  outline: none !important;
+  border: none;
+  border-radius: var(--btn-radius);
+  background: var(--color-primary);
+  font: inherit;
+  font-size: 1.1rem;
+  padding: 18px 10px;
+  text-align: center;
+}
+
+.btn-applepay {
+  background: white;
+  border: 2px solid var(--color-gray);
+  width: 100%;
+}
